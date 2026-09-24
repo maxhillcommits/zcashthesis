@@ -4,9 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Zcash</title>
-  
+
 <style>
   * { box-sizing: border-box; }
+
   html, body {
     margin: 0;
     padding: 0;
@@ -14,29 +15,44 @@
     background: white;
     color: black;
   }
+
   #site {
     display: block;
     max-width: 640px;
     margin: 3em auto;
     padding: 0 1em;
     line-height: 1.6;
-    font-size: 1.00em;
+    font-size: 1em;
   }
+
+  #site img {
+    display: block;
+    width: 100vw;
+    max-width: none;
+    height: auto;
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
   h1, h2 {
     margin-top: 1.5em;
   }
+
   p {
     margin: 1em 0;
   }
+
   a {
     color: blue;
     text-decoration: underline;
   }
+
   a:hover {
     text-decoration: none;
   }
 
-  /* Responsive text scaling */
   @media (max-width: 640px) {
     #site {
       font-size: 0.9em;
@@ -52,13 +68,12 @@
 
 </head>
 <body>
-  
+
   <div id="site">
 
-    <img src="train.jpeg" alt="train" style="width:400px; height:auto;">
-    
-  </div>
+    <img src="train.jpeg" alt="train">
 
+  </div>
 
 </body>
 </html>
